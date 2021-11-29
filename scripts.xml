@@ -1,0 +1,45 @@
+<server>
+	
+	<!----------------->
+	<!-- CORE -->
+	
+		<!-- ITEMS -->
+	<script src="items.nut" type="client" />
+	<script src="items.nut" type="server" />
+	<script src="quests.nut" type="server" />
+	
+	<import src="core/core.xml" />
+	
+	
+	<!------------------------->
+	<!-- Client side -->
+	
+		<!-- PLAYER -->
+	<script src="client/player/chat.nut" type="client" />
+	<script src="client/player/interface.nut" type="client" />
+	
+		<!-- MAIN GAMEMODE -->
+	<script src="client/login_panel.nut" type="client" />
+	<script src="client/main.nut" type="client" />
+	
+	
+	
+	
+	<!------------------------->
+	<!-- Server side -->
+
+		<!-- MAIN GAMEMODE -->
+	<script src="server/login_panel.nut" type="server" />
+	<script src="server/main.nut" type="server" />
+	
+		<!-- BOTS -->
+	<script src="server/bots/npc_test.nut" type="server" />
+	<script src="server/bots/Zirvan.nut" type="server" />
+	<script src="server/bots/interaction.nut" type="server" />
+	
+		<!-- PLAYER -->
+	<script src="server/player/onConsume.nut" type="server" />
+	
+	<import src="client/game/game.xml" />
+	
+</server>

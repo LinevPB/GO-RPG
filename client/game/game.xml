@@ -1,0 +1,6 @@
+<server>
+
+	<script src="onRespawn.nut" type="client" />
+	<script src="onDie.nut" type="client" />
+
+</server>

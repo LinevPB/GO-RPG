@@ -1,0 +1,97 @@
+<server>
+	
+	<!-- EVENTS -->
+	<script src="events.nut" type="server" />
+	
+	<!-- FILE -->
+	<script src="file.nut" type="server" />
+	
+	<!-- ITEMS -->
+	<script src="items.nut" type="client" />
+	<script src="items.nut" type="server" />
+	
+	<!------------------------->
+	<!-- Client side -->
+	
+		<!-- NET -->
+	<script src="client/net/packets.nut" type="client" />
+	
+		<!-- PLAYER -->
+	<script src="client/player/focus.nut" type="client" />
+	<script src="client/player/player.nut" type="client" />
+	
+		<!-- AI -->
+	<script src="client/npc/npc/npc.nut" type="client" />
+	<script src="client/npc/ai/ai.nut" type="client" />
+	<script src="client/npc/gui/menu.nut" type="client" />
+	<script src="client/npc/gui/dialogue.nut" type="client" />
+	
+		<!-- GUI -->
+	<script src="client/gui/render/init.nut" type="client" />
+	<script src="client/gui/render/object.nut" type="client" />
+	<script src="client/gui/object/button.nut" type="client" />
+	<script src="client/gui/object/input.nut" type="client" />
+	<script src="client/gui/object/textbox.nut" type="client" />
+	<script src="client/gui/object/selector.nut" type="client" />
+	<script src="client/gui/object/switch.nut" type="client" />
+	<script src="client/gui/object/checkbox.nut" type="client" />
+	<script src="client/gui/object/menu.nut" type="client" />
+	<script src="client/gui/object/statement.nut" type="client" />
+	<script src="client/gui/object/dialogue.nut" type="client" />
+	<script src="client/gui/object/npc_menu.nut" type="client" />
+	<!--<script src="client/gui/object/slider.nut" type="client" />-->
+	<script src="client/gui/object/quest_slider.nut" type="client" />
+	<script src="client/gui/object/trade_box.nut" type="client" />
+	
+		<!-- INVENTORY -->
+	<script src="client/gui/object/inventory.nut" type="client" />
+	<script src="client/player/inventory.nut" type="client" />	
+
+		<!-- QUESTS -->
+	<script src="client/gui/object/quests.nut" type="client" />
+	<script src="client/player/quests.nut" type="client" />	
+
+		<!-- STATISTICS -->
+	<script src="client/gui/object/stats.nut" type="client" />
+	<script src="client/player/stats.nut" type="client" />		
+	
+		<!-- NPC TRADE -->
+	<script src="client/gui/object/npc_trade.nut" type="client" />
+	<script src="client/npc/gui/trade.nut" type="client" />
+	<script src="client/gui/object/npc_sell.nut" type="client" />
+	<script src="client/npc/gui/sell.nut" type="client" />
+	
+	
+	<!------------------------->
+	<!-- Server side -->
+	
+		<!-- NET -->
+	<script src="server/net/packets.nut" type="server" />
+	
+		<!-- PLAYER -->
+	<script src="server/player/quests.nut" type="server" />
+	<script src="server/player/player.nut" type="server" />
+	<script src="server/player/player-list.nut" type="server" />
+	<script src="server/player/statement.nut" type="server" />
+	<script src="server/player/combat.nut" type="server" />
+	
+		<!-- NPC -->
+	<script src="server/npc/ai/ai.nut" type="server" />
+	<script src="server/npc/ai/npc.nut" type="server" />
+	<script src="server/npc/ai/bots_spawn.nut" type="server" />
+	<script src="server/npc/ai/synchro.nut" type="server" />
+	
+	<script src="server/npc/gui/interaction.nut" type="server" />
+	<script src="server/npc/gui/menu.nut" type="server" />
+	<script src="server/npc/gui/dialogue.nut" type="server" />
+	
+		<!-- FILE -->
+	<script src="server/file.nut" type="server" />
+	
+		<!-- NPC TRADE -->
+	<script src="server/player/onBuy.nut" type="server" />
+	<script src="server/player/onSell.nut" type="server" />
+	<script src="server/player/npc_trade.nut" type="server" />
+	<script src="server/npc/gui/trade.nut" type="server" />
+	
+</server>
